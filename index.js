@@ -9,7 +9,7 @@ const apiData = require("./data.json");
 
 app.get("/", (req , res) =>{
     res.send(
-        "Product": [
+        [
       {
         "id": 1,
         "title": "Female The Real Iron",
