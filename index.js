@@ -7,9 +7,7 @@ const  port = process.env.PORT || 3000;
 const apiData = require("./data.json");
 
 
-app.get("/", (req , res) =>{
-    res.send( "hi im didar" );
-});
+
 
 app.get("/Product", (req , res) =>{
     res.send(apiData);
